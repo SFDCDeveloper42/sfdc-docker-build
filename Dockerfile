@@ -3,6 +3,7 @@ RUN apk update
 RUN apk add bash
 RUN apk add openjdk8
 RUN apk add wget
+RUN apk add git
 RUN apk add unzip
 RUN apk add apache-ant --update-cache \
 	--repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ \
